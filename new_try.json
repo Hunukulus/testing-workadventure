@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="26" nextobjectid="20">
  <editorsettings>
-  <export target="../new_try.json" format="tmx"/>
+  <export target="new_try.json" format="tmx"/>
  </editorsettings>
  <tileset firstgid="1" name="beach_tileset" tilewidth="16" tileheight="16" tilecount="936" columns="36">
-  <image source="../farm free/tf_beach_tileset/beach_tileset.png" width="576" height="416"/>
+  <image source="farm free/tf_beach_tileset/beach_tileset.png" width="576" height="416"/>
  </tileset>
  <tileset firstgid="937" name="DesertTilemapBlankBackground" tilewidth="16" tileheight="16" tilecount="210" columns="14">
-  <image source="../tilesets/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png" width="224" height="240"/>
+  <image source="tilesets/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png" width="224" height="240"/>
  </tileset>
  <tileset firstgid="1147" name="tf_jungle_tileset" tilewidth="16" tileheight="16" tilecount="462" columns="22">
-  <image source="../tilesets/tf_jungle/tf_jungle_tileset.png" width="352" height="336"/>
+  <image source="tilesets/tf_jungle/tf_jungle_tileset.png" width="352" height="336"/>
  </tileset>
  <tileset firstgid="1609" name="cloud_tileset" tilewidth="16" tileheight="16" tilecount="1260" columns="45">
-  <image source="../tilesets/cloud_tileset/cloud_tileset.png" width="720" height="448"/>
+  <image source="tilesets/cloud_tileset/cloud_tileset.png" width="720" height="448"/>
  </tileset>
  <tileset firstgid="2869" name="ashlands_tileset" tilewidth="16" tileheight="16" tilecount="840" columns="40">
-  <image source="../tilesets/tf_ashlands/ashlands_tileset.png" width="640" height="336"/>
+  <image source="tilesets/tf_ashlands/ashlands_tileset.png" width="640" height="336"/>
  </tileset>
- <tileset firstgid="3709" source="../../../tf_beach_tileB.tsx"/>
+ <tileset firstgid="3709" source="../../tf_beach_tileB.tsx"/>
  <tileset firstgid="3709" name="video call" tilewidth="32" tileheight="32" tilecount="0" columns="0"/>
  <tileset firstgid="3709" name="MapUtils" tilewidth="16" tileheight="16" tilecount="36" columns="18">
-  <image source="../tilesets/mapUtilities.png" width="288" height="32"/>
+  <image source="tilesets/mapUtilities.png" width="288" height="32"/>
   <tile id="6">
    <properties>
     <property name="collides" type="bool" value="true"/>
@@ -44,7 +44,7 @@
   </tile>
  </tileset>
  <tileset firstgid="3745" name="MapUtils" tilewidth="16" tileheight="16" tilecount="36" columns="18">
-  <image source="../../../workadventuremap/tilesets/mapUtilities.png" width="288" height="32"/>
+  <image source="../../workadventuremap/tilesets/mapUtilities.png" width="288" height="32"/>
   <tile id="6">
    <properties>
     <property name="collides" type="bool" value="true"/>
